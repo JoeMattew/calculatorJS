@@ -1,0 +1,60 @@
+
+
+body {
+    font-family: "Geo", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    height: 100vh;
+}
+
+.calculator {
+    
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 25px;
+    
+}
+
+.screen {
+width: 224px;
+height: 50px;
+border-radius: 15px;
+background-color: black;
+color: whitesmoke;
+font-size: 40px;
+text-align: end;
+padding: 5px;
+}
+
+.buttons {
+    width: 232px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+button {
+    font-family: "Geo", sans-serif;
+    background-color: black;
+    border: none;
+    color: whitesmoke;
+    border-radius: 15px;
+    height: 50px;
+    width: 50px;
+    font-size: 40px;
+    margin: 4px;
+}
+button:hover {
+    background-color: rgb(151, 149, 149);
+}
+
+button:active {
+
+    box-shadow: inset 3px 3px 5px black;
+}
+
+#clear {
+    width: 100%;
+    font-size: 20px;
+}
